@@ -1,0 +1,5 @@
+services:
+  manager:
+    image: leosunghojung/asc:v1
+    ports:
+      - "8002:80"
