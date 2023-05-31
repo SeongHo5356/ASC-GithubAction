@@ -47,8 +47,8 @@ jobs:
         id: build-image
         env:
           REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
-          REGISTRY_ALIAS: s2n2b3r0
-          REPOSITORY: eeap
+          REGISTRY_ALIAS: u2b2c2k9
+          REPOSITORY: asc_github_action
           IMAGE_TAG: ${{ github.sha }}
         run: |
           # Build a docker container and
